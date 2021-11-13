@@ -2,8 +2,14 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+// We can mock our translations if we wanted to
+// import t from './i18n/browser'
+
+test('renders nested works text', () => {
+  // We can mock our translations if we wanted to
+  // t.nested.works = jest.fn().mockReturnValue('Nested works')
+
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const nestedWorksMessage = screen.getByText(/nested works/i);
+  expect(nestedWorksMessage).toBeInTheDocument();
 });
