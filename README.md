@@ -1,6 +1,8 @@
-# ts-i18n webpack example
+# ts-i18n webpack example [(try live)](https://domdomegg.github.io/ts-i18n-webpack-plugin-example/)
 
-This is an example project that shows how to use ts-i18n with webpack, based on an ejected create-react-app
+This is an example project that shows how to use ts-i18n with webpack, based on an ejected create-react-app.
+
+Try out setting your browser language to French (fr) and reloading the page.
 
 The steps to recreate this are effectively:
 
