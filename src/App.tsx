@@ -1,6 +1,6 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import t from './i18n/browser';
 
 function App() {
   return (
@@ -16,9 +16,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          {t.thereAreXFeatures({ count: 123 })}
+          Learn React
         </a>
-        <p>{t.nested.works()}</p>
       </header>
     </div>
   );

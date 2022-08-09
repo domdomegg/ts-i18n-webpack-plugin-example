@@ -1,9 +1,0 @@
-{
-  "thereAreXFeatures": "There is {{count}} feature",
-  "thereAreXFeatures_plural": "There are {{count}} features",
-  "nested": {
-    "works": "Nested works"
-  },
-  "andYouCanMissKeys": "And you can miss keys in non-default languages",
-  "orHaveDifferentPlaceholders": "Or have different placeholders, {{firstName}}"
-}
