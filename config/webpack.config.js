@@ -25,6 +25,7 @@ const ForkTsCheckerWebpackPlugin =
     ? require('react-dev-utils/ForkTsCheckerWarningWebpackPlugin')
     : require('react-dev-utils/ForkTsCheckerWebpackPlugin');
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
+const TsI18nWebpackPlugin = require('ts-i18n-webpack-plugin');
 
 const createEnvironmentHash = require('./webpack/persistentCache/createEnvironmentHash');
 
@@ -746,6 +747,11 @@ module.exports = function (webpackEnv) {
               }),
             },
           },
+        }),
+        new TsI18nWebpackPlugin({
+          inputDirectory: 'src/i18n',
+          outputDirectory: 'src/i18n',
+          defaultLanguage: 'en'
         }),
     ].filter(Boolean),
     // Turn off performance processing because we utilize
