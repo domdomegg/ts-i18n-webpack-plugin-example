@@ -2,6 +2,7 @@
   "name": "ts-i18n-webpack-plugin-example",
   "version": "0.1.0",
   "private": true,
+  "license": "CC0-1.0",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
